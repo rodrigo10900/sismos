@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    android:background="@color/white"
+    android:elevation="3dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="3dp">
+
+    <LinearLayout
+        android:id="@+id/layoutGeneral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/lblPlace"
+            style="@style/lblTitle.Dark"
+            android:layout_marginTop="0dp"
+            android:text="San Juan Desconocido" />
+
+        <TextView
+            android:id="@+id/lblMagnitude"
+            style="@style/lblText"
+            android:text="Magnitud: XXXX " />
+
+        <TextView
+            android:id="@+id/lblDate"
+            style="@style/lblText"
+            android:layout_marginTop="5dp"
+            android:text="Fecha: XXXX " />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

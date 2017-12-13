@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Sismos</string>
+    <string name="mapKey">AIzaSyA340Bbo233L7uz6u7SAlKQMcE5-aTXgjs</string>
+
+    <!-- Form -->
+    <string name="lblTitleForm">Búsqueda de sismos</string>
+    <string name="hintMagnitude">Indica la magnitud del sismo</string>
+    <string name="btnSearch">Buscar</string>
+    <string name="btnLastSearch">Última búsqueda</string>
+    <string name="hintStartDate">Fecha de inicio</string>
+    <string name="hintEndDate">Fecha final</string>
+    <string name="errorMagnitude">Indica una magnitud</string>
+    <string name="errorStartDate">Indica fecha de inicio</string>
+    <string name="errorEndDate">Indica fecha final</string>
+    <string name="errorNoConnection">Verifica tu conexión a internet</string>
+    <string name="errorNoResults">No se encontraron resultados</string>
+    <string name="errorServer">Error en el servidor</string>
+    <string name="btnCancel">Cancelar</string>
+    <string name="btnAccept">Aceptar</string>
+    <string name="errorNoLast">No se ha consultado ningún sismo</string>
+
+    <!-- Places -->
+    <string name="lblDateFormat">Fecha: %s</string>
+    <string name="lblMagnitudeFormat">Magnitud: %f</string>
+    <string name="notificationText">Estás a menos de 300 kilómetros del epicentro</string>
+
+
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/layoutGeneral"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            style="@style/lblTitle.Dark"
+            android:text="@string/lblTitleForm" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/txtMagnitude"
+            style="@style/editTextRegular"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hintMagnitude"
+            android:inputType="numberDecimal" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgStartDate"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ico_date" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="60dp">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/txtStartDate"
+                    style="@style/editTextRegular"
+                    android:enabled="false"
+                    android:hint="@string/hintStartDate"
+                    android:inputType="date" />
+            </android.support.design.widget.TextInputLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgEndDate"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ico_date" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="60dp">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/txtEndDate"
+                    style="@style/editTextRegular"
+                    android:enabled="false"
+                    android:hint="@string/hintEndDate"
+                    android:inputType="date" />
+            </android.support.design.widget.TextInputLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnSearch"
+                style="@style/button.full"
+                android:layout_width="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="@string/btnSearch" />
+
+            <Button
+                android:id="@+id/btnLastSearch"
+                style="@style/button.full"
+                android:layout_width="0dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="@string/btnLastSearch" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
